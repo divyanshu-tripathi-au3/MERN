@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href ="assignment2.css"/>
+  </head>
+  <body>
+     
+   
+
+<div class="wrapper">
+  <form class="myForm" action ="/adduser" method ="POST" >
+
+    <div class="formInstructionsDiv formElement">
+      <h2 class="formTitle" >Sign Up</h2>
+      <p class="instructionsText">Please fill in this form to create an account</p>
+     </div>
+
+    <div class="fillContentDiv formElement">
+        <div class="names formContentElement">  
+            <input class="inputRequest " name ="First Name" id ="First" type="text" placeholder="First Name"/>
+
+            <input class="inputRequest " name ="Last Name" id ="Last" type="text" placeholder="Last Name"/>
+
+        </div>
+
+       <br/><label>
+        <input class="inputRequest formContentElement" type="text" name ="Gender" id ="gender" placeholder="Gender">
+        </label>
+
+      <label>
+        <input class="inputRequest formContentElement" type="text" name ="User Name" id ="user" placeholder="User Name">
+      </label>
+      <label>
+        <input class="inputRequest formContentElement" type="password" name ="Password" id ="password" placeholder="Enter password">
+      </label>
+      <label>
+        <input class="inputRequest formContentElement" type="password" name ="Confirm Password" id ="confirm" placeholder="Confirm password">
+      </label>
+  
+      </div>
+    <div class="submitButtonDiv formElement">
+    
+    <button type ="submit" class="submitButton">Sign Up</button>
+    </div>
+  </form>
+</div>
+
+        <a class ="btn btn-dark" href="/logout" id ="logout">logout</a>
+ </body>
+</html>

@@ -1,0 +1,15 @@
+#logout{
+    top: 14px;
+    right:20px;
+    margin-left: 100px;
+    position: fixed;
+  };
+
+
+  #form_login {
+    left: 50%;
+    top: 55%;
+    margin-left: -25%;
+    position: absolute;
+    margin-top: -25%;
+}

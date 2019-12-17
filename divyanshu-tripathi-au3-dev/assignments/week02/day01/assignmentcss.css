@@ -1,0 +1,51 @@
+ *{
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgba(45, 45, 45, 0.1);
+    padding: 10px;
+    
+  }
+
+.films_menu { 
+    overflow: hidden; 
+    background-color: #b4b4b4; 
+ } 
+
+ #first{
+    height:183px;
+ }
+ 
+ #second{
+    height:183px;
+ }
+
+ #fifth{
+    height:183px;
+ }
+
+ #seventh{
+    height:183px;
+ }
+
+.films_menu a { 
+    float: left; 
+    width: 25%;
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 5px;
+    text-decoration: none; 
+ } 
+
+
+ .films_menu a:hover { 
+    background-color: white; 
+    color: Red; 
+ } 
+
+  p {
+    font-size: 20px;
+  }

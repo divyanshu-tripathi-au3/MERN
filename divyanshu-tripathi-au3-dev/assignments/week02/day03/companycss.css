@@ -1,0 +1,54 @@
+body{
+    background: url(https://cdn.wallpapersafari.com/7/45/IngcfO.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.logo{
+    height: 30px;
+}
+
+.navbar-nav a{
+    color: #fff;
+    font-size: 17px;
+    margin-right: 40px;
+    padding: 5px 0;
+}
+
+.navbar-nav a:hover{
+    border-bottom: 1px solid #00ffb8;
+    padding-bottom: 4px;
+}
+
+.jumbotron{
+    background: transparent;
+    color: black;
+    padding-top: 20px;
+     padding-bottom: 20px;
+
+}
+
+
+.card-deck{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.card1{
+
+    background-color: #00ffb8;
+}
+
+.card2{
+
+    background-color: yellow;
+}
+
+
+.col-md-4 img{
+    float: right;
+    
+}
+
+.map p{
+ color: #00ffb8;
+}

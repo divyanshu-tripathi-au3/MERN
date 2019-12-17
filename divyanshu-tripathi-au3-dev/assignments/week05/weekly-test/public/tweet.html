@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tweet</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <style> 
+       body{
+           background-image: url(data:image/jpeg;base64,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);
+            background-repeat: no-repeat  center center fixed;;
+            background-size: cover; 
+       }
+    </style>
+    <br/>
+        
+    <div class = "container-fluid">
+        <div class = "row">
+            <div class = "col-4">
+                <div class = "jumbotron bg-info text-white">
+                        
+                      
+                    <!-- <form id ="formid"> -->
+                <div class="form-group">
+                      <form action="/alltweets" method="POST">
+                            <label for="inputName">Enter Name:- </label>
+                            <input type="text" name ="Name" class ="form-control" id ='Name' placeholder="Enter Name" required>
+                                <label for="inputTweet">Enter Tweet:- </label>
+                                <input type="text" name ="tweet" class ="form-control" id ='tweet' placeholder="Enter Your Tweet Here"required>
+                        
+                              <br/>  <button style="float: left" id="btns" type ="submit" class="btn btn-warning">Submit</button>
+                               
+                        
+                    </form>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class ="col-6">
+            <div id ="jumbotrons" class ="jumbotron" style ="padding-top: 30px;">          
+            </div>
+            
+        </div>
+
+        <script  src="https://code.jquery.com/jquery-3.4.1.min.js"  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+
+        <script>
+            function append (){
+                $.ajax({
+                    url :'/alltweetsinfo',
+                    type: 'GET',
+                    datatype: 'json',
+                    success: function(data){
+                        $('#jumbotrons').append('<ul></ul>');
+                        for (var i =0; i<data.length; i++){
+                            $('ul').append( '<li>'+ "Name :" + data[i].Name + '<br/>' + "tweet :" + data[i].tweet + '</li')
+                        }
+                    }
+                })
+            } 
+           
+        
+        //    $('#btns').on('click', function(){
+
+               
+        //         var data ={
+        //             Name: $('#Name').val(),
+        //             tweet: $('#tweet').val()
+        //         }
+
+        //         $.ajax({
+        //             url: '/alltweets',
+        //             type: 'post',
+        //             contentType: 'application/json',
+        //             dataType : 'json',
+        //             data: JSON.stringify(data),
+        //             success: function(message){
+        //                 append()
+        //                 alert(JSON.stringify(message));
+
+        //             }
+        //         });
+
+               
+        //      });
+
+        //      $("#btns").click(function () {
+                
+                //$('#jumbotrons ul').remove();
+                append();
+                    // $("#Name").text("");
+           //  });
+
+        </script>
+</body>
+</html>

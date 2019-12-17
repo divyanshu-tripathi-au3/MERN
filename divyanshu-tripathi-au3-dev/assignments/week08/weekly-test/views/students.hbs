@@ -1,0 +1,17 @@
+ <a class ="btn btn-primary mt-3 ml-3" href="/students/add" id ="backward">Back</a>
+     {{#each student}}         
+           <div class="card text-black bg-secondary mb-3 mt-3 ml-5" style="width: 26rem; " >
+                <div class="card">
+                    <div class="card-body">
+                    
+                                                   
+                        Name : {{this.Name}} <br/> Email : {{this.Email}} <br/> Password : {{this.Password}}
+                      
+                    
+                    </div>
+                
+               <button class="btn btn-danger newdelete"  id ="delete" type="submit" value="{{this._id}}">Delete</button>
+                </div>
+            </div>
+
+   {{/each}} 

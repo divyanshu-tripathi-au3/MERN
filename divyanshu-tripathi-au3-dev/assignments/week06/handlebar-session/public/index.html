@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href ="index.css"/>
+    <title>Login</title>
+</head>
+<body>
+    <br/>
+    <div class = "container-fluid">
+            <div class = "row">
+                <div class = "col-4">
+                    <div class = "jumbotron bg-info text-white">
+
+
+                <form action ="/login" method ="POST" id ="form_login">
+                   
+
+                    <div class="form-group">
+                            <label for="inputEmail">Enter Username:- </label>
+                            <input type="text" name ="Username" class ="form-control" id ='Username' placeholder="Enter Your username" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="pasword">Enter Password:- </label>
+                        <input type="text" name ="Password" class ="form-control" id ='Password' placeholder="Enter Your Password Here" required>
+                    </div>
+
+                    <input type ="submit" class ="btn btn-primary" value ="Login"/>
+                   
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

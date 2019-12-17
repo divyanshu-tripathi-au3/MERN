@@ -1,0 +1,31 @@
+
+    <br/><br/><table class="table">
+
+        <thead class="thead-dark">
+        
+            <tr>
+             
+            <th scope="col">Name</th>
+            <th scope="col">Tweet</th>
+            
+            </tr>
+        </thead>
+
+       <tbody>
+           
+           {{#each data}}
+            
+                <tr>
+                    <td>{{this.Name}}</td>
+                    <td>{{this.Tweet}}</td>
+                </tr>
+            
+            {{/each}}
+
+
+        </tbody>
+    </table>
+
+            
+            {{!-- <li>{{this.Name}} : {{this.Tweet}} </li> --}}
+           

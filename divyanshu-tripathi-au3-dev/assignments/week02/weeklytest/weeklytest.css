@@ -1,0 +1,120 @@
+.navbar-nav a{
+    color:#ffff;
+    font-size: 18px;
+    margin-right: 40px;
+    padding: 5px 0;
+}
+
+.nav-item1 h2{
+    margin-left: 340px;
+       color:red;
+}
+
+.navbar-nav a:hover{
+    border-bottom: 1px solid #00ffb8;
+    padding-bottom: 4px;
+}
+
+
+
+.navbarnew a{
+    color:#ffff;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 10px 0;
+    
+}
+
+
+
+.form-inline{
+    margin-left: 290px;
+}
+h6 {
+    margin-left: 10px;
+}
+
+
+  ul {
+    list-style-type:none;
+}
+
+
+
+.col-4 {
+    
+    padding-left: 90px;
+    
+}
+
+.card-deck img{
+   
+    height:300px;
+    width:100%;
+}
+
+.card-deck{
+   
+    height:400px;
+    width:400%;
+    
+}
+
+/* .sidemenu:after {
+    content: '';
+    width: 0;
+    height: 100%;
+    position: absolute;
+    border: 2px solid black;
+    top: 0;
+    left: 200px;
+} */
+
+.input-group-append {
+    
+    padding-top: 20px;
+    padding-left: 1050px;
+       font-size: 15px;
+}
+
+#paddingnew {
+    padding: 0px;
+}
+
+
+/* .badge{
+    font-size: 10px;
+    background-color: orange;
+    padding-top: 0px;
+    margin-top: 0px;
+} */
+
+.badge{
+    background:red;
+    position:absolute;
+    top:0px;
+    font-size: 10px;
+   }
+
+
+.col-2{
+    position: absolute;
+    top:135px;
+    left:0px;
+    background-color: #00ffb8;
+    /* width:200px;
+    height:130%; */
+}
+  
+
+.parent {
+    height: 950px; 
+    width: 250px;
+    overflow-y: auto;
+}
+
+.scrollable {
+  height: 1250px;
+  width: 250px;
+  background: 00ffb8;
+}
